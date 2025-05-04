@@ -22,34 +22,75 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin
 
 Carry = AB + ACin + BCin
 
+**FIGURE -1 FULL ADDER**
+
 ![image](https://github.com/naavaneetha/FULL_ADDER_SUBTRACTOR/assets/154305477/0f30ba51-5ffb-4198-845f-18e054f675e7)
 
-**Figure -1 FULL ADDER**
+
 
 **Full Subtractor**
 
 A full subtractor is a combinational circuit that performs subtraction involving three bits, namely minuend, subtrahend, and borrow-in . It accepts three inputs: minuend, subtrahend and a borrow bit and it produces two outputs: difference and borrow.
 
-![image](https://github.com/naavaneetha/FULL_ADDER_SUBTRACTOR/assets/154305477/02b24f51-ab51-4304-9ad6-7b81ffc1ead5)
-
 Diff = A ⊕ B ⊕ Bin 
 
 Borrow out = A'Bin + A'B + BBin
 
+**FIGURE-2 FULL SUBTRACTOR**
+
+![image](https://github.com/naavaneetha/FULL_ADDER_SUBTRACTOR/assets/154305477/02b24f51-ab51-4304-9ad6-7b81ffc1ead5)
+
+
 **Truthtable**
+
+FULL ADDER: 
+
+![image](https://github.com/user-attachments/assets/df87383d-2ba9-4f5a-8e13-9eb3b98e1421)
+
+FULL SUBTRACTOR:
+
+
+![image](https://github.com/user-attachments/assets/fadb2296-6660-4511-96cb-9e26a76b71ef)
+
+
 
 **Procedure**
 
-Write the detailed procedure here
+![image](https://github.com/user-attachments/assets/a1417f1e-f24d-466a-86c3-9c65bbcd026e)
+
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+FULL ADDER:
+
+![image](https://github.com/user-attachments/assets/e67a3483-11b8-4708-a5ec-df2312e7bb13)
+
+FULL SUBTRACTOR:
+
+![image](https://github.com/user-attachments/assets/8203f205-86a1-4803-868c-43992038b302)
+
 
 **RTL Schematic**
 
+FULL ADDER:
+
+![image](https://github.com/user-attachments/assets/0a08319b-e7d8-418c-bc79-012a04cb3524)
+
+FULL SUBTRACTOR:
+
+![image](https://github.com/user-attachments/assets/cb389bf1-a63f-4629-bd25-ebde023b570d)
+
+
 **Output Timing Waveform**
+
+FULL ADDER:
+
+![image](https://github.com/user-attachments/assets/7ebf79e7-9b7c-4346-be49-e9039edf096d)
+
+
+FULL SUBTRACTOR:
+
+![image](https://github.com/user-attachments/assets/2dd46d65-82c4-45bb-90fe-1c82091e8a34)
 
 **Result:**
 
